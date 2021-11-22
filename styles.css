@@ -1,10 +1,11 @@
 @import url('./reset.css');
 
 /* import fonts from Google Font Library */
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:wght@200;400;700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat:ital,wght@0,200;0,400;0,700;0,900;1,200;1,900&family=Space+Mono:wght@400;700&display=swap');
 /* font-family: 'Major Mono Display', monospace;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Space Mono', monospace; */
+
 
 
 .content {
@@ -22,6 +23,7 @@ font-family: 'Space Mono', monospace; */
     top: 20px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #fff;
 }
 
 .content__heading h1 {
@@ -98,11 +100,126 @@ font-family: 'Space Mono', monospace; */
 
 .content__block {
     display: inline-block;
-    width: 40%;
-    height: 100px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #000;
     font-size: 14px;
     line-height: 1.4;
+}
+
+.content__block_type_color {
+    width: 40%;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.content__block_type_font {
+    width: 80%;
+}
+
+.content__block h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content__block h4 {
+    font-size: 18;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content__block p {
+    margin-bottom: 10px;
+}
+
+#mmono-reg {
+    font-family: 'Major Mono Display';
+    font-size: 20px;
+}
+
+#mmono-bold {
+    font-family: 'Major Mono Display';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mmono-italic {
+    font-family: 'Major Mono Display';
+    font-size: 20px;
+    font-style: italic;
+}
+
+#spacemono-reg {
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#spacemono-bold {
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#spacemono-italic {
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#montserrat-200 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#montserrat-200-ita {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#montserrat-400 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#montserrat-700 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#montserrat-900 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#montserrat-900-ita {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#h1 {
+    font-family: 'Major Mono Display';
+    font-size: 50px;
+}
+
+#h2 {
+    font-family: 'Space Mono';
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 200;
 }
