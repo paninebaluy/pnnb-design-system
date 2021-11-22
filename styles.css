@@ -24,6 +24,7 @@ font-family: 'Space Mono', monospace; */
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
+    clear: right;
 }
 
 .content__heading h1 {
@@ -49,7 +50,6 @@ font-family: 'Space Mono', monospace; */
     width: 120px;
     height: 40px;
     margin: 0 10px;
-/*     border: 1px solid #000; */
     background-color: #fff;
     opacity: 1;
     transition: all 0.2s 0.05s linear;
@@ -222,4 +222,26 @@ font-family: 'Space Mono', monospace; */
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 200;
+}
+
+@media screen and (max-width: 1000px) {
+    .content__section {
+        width: 90%;
+    }
+
+    .content__menu {
+        top: 120px;
+        left: 0;
+    }
+
+
+
+    .content__menu-link {
+        font-size: 15px;
+    }
+
+    .content__main {
+        margin: 220px 0 0;
+    }
+
 }
